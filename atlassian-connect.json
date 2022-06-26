@@ -1,16 +1,16 @@
 {
-    "key": "atlassian-connect-gmaps",
-    "name": "Google Maps",
+    "key": "atlassian-connect-webhooks",
+    "name": "Webhooks",
       "scopes": [
     "read"
   ],
-    "description": "Google Maps plugin for connect",
+    "description": "Webhooks",
     "version": "1.0.4",
     "vendor": {
         "name": "Atlassian",
         "url": "https://developer.atlassian.com"
     },
-    "baseUrl": "https://github.com/devlanfear/confluence-connect-test",
+    "baseUrl": "https://webhook.site",
     "authentication": {
         "type": "NONE"
     },
@@ -19,36 +19,9 @@
       {
         "key": "webhooks-example",
         "event": "page_created",
-        "url": "https://webhook.site/acc141a8-ccfe-4da0-9a35-5b1fef5b1026",
+        "url": "/acc141a8-ccfe-4da0-9a35-5b1fef5b1026",
         "excludeBody": false
       }
-    ],
-        "dynamicContentMacros": [
-            {
-                "name": {
-                    "i18n": "gmaps.macro.name",
-                    "value": "Google Map"
-                },
-               "key": "dynamic-macro-example",
-                "featured": true,
-                "url": "/display.html",
-                "icon": {
-                    "height": 80,
-                    "url": "/favicon.png",
-                    "width": 80
-                },
-                "width": "500px",
-                "height": "200px",
-                "description": {
-                    "i18n": "gmaps.macro.desc",
-                    "value": "Insert a Google map into a page"
-                },
-                "editor": {
-                    "url": "/editor.html",
-                    "width": "865px",
-                    "height": "600px"
-                }
-            }
-        ]
+    ]
     }
 }
