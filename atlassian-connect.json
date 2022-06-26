@@ -1,8 +1,8 @@
 {
   "key": "webhooksac.ci.20cb89fb-fc44-4d74-bc95-fe44d454e02f",
-  "name": "Webhooks",
-  "baseUrl": "https://webhook.site/",
-  "description": "Connect inspector to see into the requests that your atlassian-connect add-on is making.",
+  "name": "Webhooks1",
+  "baseUrl": "https://enq5lgt7b1km.x.pipedream.net,
+  "description": "Webhooks",
   "lifecycle": {
     "installed": "/log-save/installed",
     "uninstalled": "/log-save/uninstalled",
