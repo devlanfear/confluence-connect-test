@@ -18,6 +18,7 @@
                     "i18n": "gmaps.macro.name",
                     "value": "Google Map"
                 },
+               "key": "dynamic-macro-example",
                 "featured": true,
                 "url": "/display.html",
                 "icon": {
@@ -35,8 +36,7 @@
                     "url": "/editor.html",
                     "width": "865px",
                     "height": "600px"
-                },
-                 "key": "dynamic-macro-example"
+                }
             }
         ]
     }
