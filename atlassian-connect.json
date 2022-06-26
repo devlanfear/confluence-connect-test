@@ -1,6 +1,6 @@
 {
   "key": "webhooksac.ci.20cb89fb-fc44-4d74-bc95-fe44d454e02f",
-  "name": "Webhooks1",
+  "name": "Webhooks2",
   "baseUrl": "https://enq5lgt7b1km.x.pipedream.net",
   "description": "Webhooks",
   "lifecycle": {
@@ -143,7 +143,7 @@
       { "event": "page_restored", "url": "/log-save/page_restored" },
       { "event": "page_trashed", "url": "/log-save/page_trashed" },
       { "event": "page_unarchived", "url": "/log-save/page_unarchived" },
-      { "event": "page_updated", "url": "/acc141a8-ccfe-4da0-9a35-5b1fef5b1026" },
+      { "event": "page_updated", "url": "/page_updated" },
       { "event": "page_viewed", "url": "/log-save/page_viewed" },
       { "event": "plugin_enabled", "url": "/log-save/plugin_enabled" },
       { "event": "relation_created", "url": "/log-save/relation_created" },
