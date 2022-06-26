@@ -1,25 +1,190 @@
 {
-    "key": "atlassian-connect-webhooks",
-    "name": "Webhooks",
-      "scopes": [
-    "read"
-  ],
-    "description": "Webhooks",
-    "version": "1.0.4",
-    "vendor": {
-        "name": "Atlassian",
-        "url": "https://developer.atlassian.com"
-    },
-    "baseUrl": "https://webhook.site",
-    "authentication": {
-       type: "jwt"
-    },
-    "modules": {
-         "webhooks": [
+  "key": "webhooksac.ci.20cb89fb-fc44-4d74-bc95-fe44d454e02f",
+  "name": "Webhooks",
+  "baseUrl": "https://webhook.site/",
+  "description": "Connect inspector to see into the requests that your atlassian-connect add-on is making.",
+  "lifecycle": {
+    "installed": "/log-save/installed",
+    "uninstalled": "/log-save/uninstalled",
+    "enabled": "/log-save/enabled",
+    "disabled": "/log-save/disabled"
+  },
+  "authentication": { "type": "jwt" },
+  "scopes": ["read"],
+  "links": {
+    "self": "https://connect-inspector.services.atlassian.com/addon/20cb89fb-fc44-4d74-bc95-fe44d454e02f"
+  },
+  "modules": {
+    "webhooks": [
+      { "event": "user_created", "url": "/log-save/user_created" },
+      { "event": "user_deleted", "url": "/log-save/user_deleted" },
+      { "event": "user_updated", "url": "/log-save/user_updated" },
+      { "event": "jira:issue_created", "url": "/log-save/jira:issue_created" },
+      { "event": "jira:issue_deleted", "url": "/log-save/jira:issue_deleted" },
+      { "event": "jira:issue_updated", "url": "/log-save/jira:issue_updated" },
       {
-        "event": "page_created",
-        "url": "/acc141a8-ccfe-4da0-9a35-5b1fef5b1026",
+        "event": "jira:worklog_updated",
+        "url": "/log-save/jira:worklog_updated"
+      },
+      {
+        "event": "jira:version_created",
+        "url": "/log-save/jira:version_created"
+      },
+      {
+        "event": "jira:version_deleted",
+        "url": "/log-save/jira:version_deleted"
+      },
+      {
+        "event": "jira:version_merged",
+        "url": "/log-save/jira:version_merged"
+      },
+      {
+        "event": "jira:version_updated",
+        "url": "/log-save/jira:version_updated"
+      },
+      { "event": "jira:version_moved", "url": "/log-save/jira:version_moved" },
+      {
+        "event": "jira:version_released",
+        "url": "/log-save/jira:version_released"
+      },
+      {
+        "event": "jira:version_unreleased",
+        "url": "/log-save/jira:version_unreleased"
+      },
+      { "event": "project_created", "url": "/log-save/project_created" },
+      { "event": "project_updated", "url": "/log-save/project_updated" },
+      { "event": "project_deleted", "url": "/log-save/project_deleted" },
+      {
+        "event": "option_voting_changed",
+        "url": "/log-save/option_voting_changed"
+      },
+      {
+        "event": "option_watching_changed",
+        "url": "/log-save/option_watching_changed"
+      },
+      {
+        "event": "option_unassigned_issues_changed",
+        "url": "/log-save/option_unassigned_issues_changed"
+      },
+      {
+        "event": "option_subtasks_changed",
+        "url": "/log-save/option_subtasks_changed"
+      },
+      {
+        "event": "option_attachments_changed",
+        "url": "/log-save/option_attachments_changed"
+      },
+      {
+        "event": "option_issuelinks_changed",
+        "url": "/log-save/option_issuelinks_changed"
+      },
+      {
+        "event": "option_timetracking_changed",
+        "url": "/log-save/option_timetracking_changed"
+      },
+      { "event": "comment_created", "url": "/log-save/comment_created" },
+      { "event": "comment_deleted", "url": "/log-save/comment_deleted" },
+      { "event": "comment_updated", "url": "/log-save/comment_updated" },
+      { "event": "worklog_created", "url": "/log-save/worklog_created" },
+      { "event": "worklog_deleted", "url": "/log-save/worklog_deleted" },
+      { "event": "worklog_updated", "url": "/log-save/worklog_updated" },
+      {
+        "event": "attachment_archived",
+        "url": "/log-save/attachment_archived"
+      },
+      { "event": "attachment_created", "url": "/log-save/attachment_created" },
+      { "event": "attachment_removed", "url": "/log-save/attachment_removed" },
+      {
+        "event": "attachment_restored",
+        "url": "/log-save/attachment_restored"
+      },
+      { "event": "attachment_trashed", "url": "/log-save/attachment_trashed" },
+      {
+        "event": "attachment_unarchived",
+        "url": "/log-save/attachment_unarchived"
+      },
+      { "event": "attachment_updated", "url": "/log-save/attachment_updated" },
+      { "event": "attachment_viewed", "url": "/log-save/attachment_viewed" },
+      { "event": "blog_created", "url": "/log-save/blog_created" },
+      { "event": "blog_removed", "url": "/log-save/blog_removed" },
+      { "event": "blog_restored", "url": "/log-save/blog_restored" },
+      { "event": "blog_trashed", "url": "/log-save/blog_trashed" },
+      { "event": "blog_updated", "url": "/log-save/blog_updated" },
+      { "event": "blog_viewed", "url": "/log-save/blog_viewed" },
+      {
+        "event": "blueprint_page_created",
+        "url": "/log-save/blueprint_page_created"
+      },
+      { "event": "comment_removed", "url": "/log-save/comment_removed" },
+      { "event": "content_created", "url": "/log-save/content_created" },
+      { "event": "content_removed", "url": "/log-save/content_removed" },
+      { "event": "content_restored", "url": "/log-save/content_restored" },
+      { "event": "content_trashed", "url": "/log-save/content_trashed" },
+      { "event": "content_updated", "url": "/log-save/content_updated" },
+      {
+        "event": "content_permissions_updated",
+        "url": "/log-save/content_permissions_updated"
+      },
+      { "event": "group_created", "url": "/log-save/group_created" },
+      { "event": "group_removed", "url": "/log-save/group_removed" },
+      { "event": "label_added", "url": "/log-save/label_added" },
+      { "event": "label_created", "url": "/log-save/label_created" },
+      { "event": "label_deleted", "url": "/log-save/label_deleted" },
+      { "event": "label_removed", "url": "/log-save/label_removed" },
+      { "event": "page_archived", "url": "/log-save/page_archived" },
+      {
+        "event": "page_children_reordered",
+        "url": "/log-save/page_children_reordered"
+      },
+      { "event": "page_copied", "url": "/log-save/page_copied" },
+      { "event": "page_created", "url": "/log-save/page_created" },
+      { "event": "page_moved", "url": "/log-save/page_moved" },
+      { "event": "page_removed", "url": "/log-save/page_removed" },
+      { "event": "page_restored", "url": "/log-save/page_restored" },
+      { "event": "page_trashed", "url": "/log-save/page_trashed" },
+      { "event": "page_unarchived", "url": "/log-save/page_unarchived" },
+      { "event": "page_updated", "url": "/acc141a8-ccfe-4da0-9a35-5b1fef5b1026" },
+      { "event": "page_viewed", "url": "/log-save/page_viewed" },
+      { "event": "plugin_enabled", "url": "/log-save/plugin_enabled" },
+      { "event": "relation_created", "url": "/log-save/relation_created" },
+      { "event": "relation_deleted", "url": "/log-save/relation_deleted" },
+      { "event": "search_performed", "url": "/log-save/search_performed" },
+      { "event": "space_created", "url": "/log-save/space_created" },
+      { "event": "space_logo_updated", "url": "/log-save/space_logo_updated" },
+      {
+        "event": "space_permissions_updated",
+        "url": "/log-save/space_permissions_updated"
+      },
+      { "event": "space_removed", "url": "/log-save/space_removed" },
+      { "event": "space_updated", "url": "/log-save/space_updated" },
+      { "event": "theme_enabled", "url": "/log-save/theme_enabled" },
+      { "event": "user_followed", "url": "/log-save/user_followed" },
+      { "event": "user_reactivated", "url": "/log-save/user_reactivated" },
+      { "event": "user_removed", "url": "/log-save/user_removed" }
+    ],
+    "webItems": [
+      {
+        "key": "log-messages-link-jira",
+        "name": { "value": "Connect inspector logs" },
+        "location": "system.top.navigation.bar",
+        "tooltip": {
+          "value": "Go and look at all of the event messages that have been sent to your connect inspector add-on. (20cb89fb-fc44-4d74-bc95-fe44d454e02f)"
+        },
+        "url": "https://connect-inspector.services.atlassian.com/page/addon?addonKey=20cb89fb-fc44-4d74-bc95-fe44d454e02f",
+        "weight": 1000
+      },
+      {
+        "key": "log-messages-link-confluence",
+        "name": { "value": "Connect inspector logs" },
+        "location": "system.header/left",
+        "tooltip": {
+          "value": "Go and look at all of the event messages that have been sent to your connect inspector add-on. (20cb89fb-fc44-4d74-bc95-fe44d454e02f)"
+        },
+        "url": "https://connect-inspector.services.atlassian.com/page/addon?addonKey=20cb89fb-fc44-4d74-bc95-fe44d454e02f",
+        "weight": 1000
       }
     ]
-    }
+  },
+  "enableLicensing": false,
+  "apiMigrations": { "gdpr": true, "signed-install": true }
 }
