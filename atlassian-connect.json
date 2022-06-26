@@ -35,7 +35,8 @@
                     "url": "/editor.html",
                     "width": "865px",
                     "height": "600px"
-                }
+                },
+                 "key": "dynamic-macro-example"
             }
         ]
     }
