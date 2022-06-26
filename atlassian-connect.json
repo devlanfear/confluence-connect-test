@@ -1,6 +1,9 @@
 {
     "key": "atlassian-connect-gmaps",
     "name": "Google Maps",
+      "scopes": [
+    "read"
+  ]
     "description": "Google Maps plugin for connect",
     "version": "1.0.4",
     "vendor": {
