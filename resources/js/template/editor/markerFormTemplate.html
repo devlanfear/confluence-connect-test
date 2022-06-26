@@ -1,0 +1,25 @@
+<form class="aui">
+    <fieldset>
+         <div class="field-group">
+            <label for="d-geocode">Location</label>
+            <input class="text long-field" type="text" id="d-geocode" name="d-geocode" title="Location" />
+            <div class="description">Enter an Address or latitude and longitude</div>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div class="field-group">
+            <label for="d-title">Info Title</label>
+            <input class="text long-field" type="text" id="d-title" name="d-title" title="Title" />
+        </div>
+        <div class="field-group">
+            <label for="d-content">Info Content</label>
+            <textarea name="d-content" id="d-content" class="textarea"><%- content %></textarea>
+        </div>
+    </fieldset>
+    <div class="buttons-container">
+        <div class="buttons">
+            <button class="button submit" type="button">Save</button>
+            <button class="aui-button aui-button-link cancel" href="#">Cancel</button>
+        </div>
+    </div>
+</form>

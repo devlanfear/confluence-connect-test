@@ -1,0 +1,26 @@
+<form id="d" class="aui">
+    <fieldset>
+         <div class="pull-left">
+            <label for="d-width">Width</label>
+            <input class="text short-field" type="text" id="d-width" name="d-width" value="<%- width %>" title="Map Width">
+        </div>
+         <div class="pull-right">
+            <label for="d-height">Height</label>
+            <input class="text short-field" type="text" id="d-height" name="d-height" value="<%- height %>" title="Map Height">
+        </div>
+    </fieldset>
+</form>
+<form class="aui">
+    <div class="marker-list-heading">
+        <button class="aui-button aui-button-primary add-marker" id="addmarker">Add New Map Marker</button><h2>Map Markers</h2>
+    </div>
+    <div id="marker-form-container"></div>
+</form>
+<div id="marker-list-container"></div>
+<form class="aui">
+    <button name="importkml" class="aui-button add-kml <% if(kmlurl.length !== 0){ %> hidden <% } %>" type="input">Add KML data</button>
+    <div class="field-group <% if(kmlurl.length === 0){ %> hidden <% } %> kml-import-fields">
+        <label for="d-kmlimport">KML import</label>
+        <input class="text long-field" type="text" id="d-kmlimport" name="d-kmlimport" value="<%- kmlurl %>" title="KML URL" />
+    </div>
+</form>

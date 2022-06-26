@@ -1,0 +1,65 @@
+body {
+    background:#fff;
+}
+
+.map-preview {
+    width: 500px;
+    height: 440px;
+    background-color:transparent;
+    margin-left:5px;
+}
+
+#marker-form-container {
+    margin:10px 0;
+}
+
+.macro-preview-container {
+    width:505px;
+}
+
+.add-marker {
+    float:right;
+}
+
+.macro-input-fields {
+    width:340px;
+}
+
+#form {
+    padding-left:10px;
+}
+
+.actions {
+     width:80px;
+}
+
+.macro-preview {
+    position: relative;
+}
+
+form.aui.quickcenter {
+    position:absolute;
+    width:100%;
+}
+
+form.aui.quickcenter .text {
+    height:1.8em;
+    float:right;
+    font-size:0.9em;
+    position:relative;
+    bottom:30px;
+    right:4px;
+}
+
+
+.pull-left {
+    float:left;
+}
+.pull-right {
+    float:right;
+}
+
+
+form.aui .kml-import-fields > label {
+    float:none;
+}

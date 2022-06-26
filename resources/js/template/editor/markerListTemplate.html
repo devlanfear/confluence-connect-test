@@ -1,0 +1,22 @@
+<table id="markers" class="aui aui-table-sortable">
+<thead>
+    <tr>
+        <th>Title</th>
+        <th>Location</th>
+        <th class="aui-table-column-unsortable actions">Actions</th>
+    </tr>
+</thead>
+<tbody>
+    <% _(markers.models).each(function(marker, i) { %>
+    <tr data-marker="<%- marker.cid %>">
+        <td class="title"><%- marker.get('title') %></td>
+        <td><%- marker.get('location') %></td>
+        <td>
+            <span class="aui-buttons">
+                <button class="aui-button edit" data-marker="<%- marker.cid %>"><span class="aui-icon aui-icon-small aui-iconfont-edit"></span></button>
+                <button class="aui-button remove" data-unicode="UTF+E00D" data-marker="<%- marker.cid %>"><span class="aui-icon aui-icon-small aui-iconfont-remove"></span></button>
+            </span>
+        </td>
+    </tr><% }); %>
+</tbody>
+</table>

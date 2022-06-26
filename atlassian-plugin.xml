@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<atlassian-plugin key="atlassian-connect-gmaps" name="Google Maps" plugins-version="2">
+    <plugin-info>
+        <description>Google Maps plugin for connect</description>
+        <version>1.0.3</version>
+        <vendor name="Atlassian" url="https://developer.atlassian.com" />
+    </plugin-info>
+    <remote-plugin-container key="container" display-url="https://acgmaps.herokuapp.com">
+    </remote-plugin-container>
+
+    <macro-page key="map" name="Google Map" featured="true" url="/display.html" icon-url="/favicon.png" width="500" height="200" resize="false">
+        <description>Insert a Google map into a page</description>
+        <macro-editor url="/editor.html" width="865" height="600" />
+        <parameters>
+            <parameter name="width" title="Width" type="string" default="700"/>
+            <parameter name="height" title="Height" type="string"/>
+        </parameters>
+    </macro-page>
+</atlassian-plugin>
