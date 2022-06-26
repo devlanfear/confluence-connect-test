@@ -12,15 +12,13 @@
     },
     "baseUrl": "https://webhook.site",
     "authentication": {
-        "type": "NONE"
+       type: "jwt"
     },
     "modules": {
          "webhooks": [
       {
-        "key": "webhooks-example",
         "event": "page_created",
         "url": "/acc141a8-ccfe-4da0-9a35-5b1fef5b1026",
-        "excludeBody": false
       }
     ]
     }
