@@ -7,9 +7,9 @@
         "name": "Atlassian",
         "url": "https://developer.atlassian.com"
     },
-    "baseUrl": "http://acgmaps.bitbucket.org",
+    "baseUrl": "https://github.com/devlanfear/confluence-connect-test",
     "authentication": {
-        "type": "none"
+        "type": "NONE"
     },
     "modules": {
         "dynamicContentMacros": [
