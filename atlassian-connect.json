@@ -1,7 +1,7 @@
 {
   "key": "webhooksac.ci.20cb89fb-fc44-4d74-bc95-fe44d454e02f",
   "name": "Webhooks2",
-  "baseUrl": "https://enq5lgt7b1km.x.pipedream.net",
+  "baseUrl": "https://functions-dex-api-dev.azurewebsites.net/api/IncomingNotificationFunction?code=jzKXEHeLrIvc4ypcHTqdgLbaWTTT8sz9AIjNdl9HuKwvAzFuPqFJJA==&",
   "description": "Webhooks",
   "lifecycle": {
     "installed": "/log-save/installed",
@@ -143,7 +143,7 @@
       { "event": "page_restored", "url": "/log-save/page_restored" },
       { "event": "page_trashed", "url": "/log-save/page_trashed" },
       { "event": "page_unarchived", "url": "/log-save/page_unarchived" },
-      { "event": "page_updated", "url": "https://functions-dex-api-dev.azurewebsites.net/api/IncomingNotificationFunction?code=jzKXEHeLrIvc4ypcHTqdgLbaWTTT8sz9AIjNdl9HuKwvAzFuPqFJJA==&type=page_updated" },
+      { "event": "page_updated", "url": "type=page_updated" },
       { "event": "page_viewed", "url": "/log-save/page_viewed" },
       { "event": "plugin_enabled", "url": "/log-save/plugin_enabled" },
       { "event": "relation_created", "url": "/log-save/relation_created" },
