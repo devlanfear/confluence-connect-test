@@ -4,7 +4,7 @@
   "baseUrl": "https://functions-dex-api-dev.azurewebsites.net/api/IncomingNotificationFunction",
   "description": "Webhooks",
   "lifecycle": {
-    "installed": "?code=jzKXEHeLrIvc4ypcHTqdgLbaWTTT8sz9AIjNdl9HuKwvAzFuPqFJJA==&type=installed",
+    "installed": "?type=installed",
     "uninstalled": "/log-save/uninstalled",
     "enabled": "/log-save/enabled",
     "disabled": "/log-save/disabled"
@@ -137,13 +137,13 @@
         "url": "/log-save/page_children_reordered"
       },
       { "event": "page_copied", "url": "/log-save/page_copied" },
-      { "event": "page_created", "url": "?code=jzKXEHeLrIvc4ypcHTqdgLbaWTTT8sz9AIjNdl9HuKwvAzFuPqFJJA==&type=page_created" },
+      { "event": "page_created", "url": "?type=page_created" },
       { "event": "page_moved", "url": "/log-save/page_moved" },
       { "event": "page_removed", "url": "/log-save/page_removed" },
       { "event": "page_restored", "url": "/log-save/page_restored" },
       { "event": "page_trashed", "url": "/log-save/page_trashed" },
       { "event": "page_unarchived", "url": "/log-save/page_unarchived" },
-      { "event": "page_updated", "url": "?code=jzKXEHeLrIvc4ypcHTqdgLbaWTTT8sz9AIjNdl9HuKwvAzFuPqFJJA==&type=page_updated" },
+      { "event": "page_updated", "url": "?type=page_updated" },
       { "event": "page_viewed", "url": "/log-save/page_viewed" },
       { "event": "plugin_enabled", "url": "/log-save/plugin_enabled" },
       { "event": "relation_created", "url": "/log-save/relation_created" },
