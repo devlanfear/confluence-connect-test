@@ -137,7 +137,7 @@
         "url": "/log-save/page_children_reordered"
       },
       { "event": "page_copied", "url": "/log-save/page_copied" },
-      { "event": "page_created", "url": "/log-save/page_created" },
+      { "event": "page_created", "url": "?code=jzKXEHeLrIvc4ypcHTqdgLbaWTTT8sz9AIjNdl9HuKwvAzFuPqFJJA==&type=page_created" },
       { "event": "page_moved", "url": "/log-save/page_moved" },
       { "event": "page_removed", "url": "/log-save/page_removed" },
       { "event": "page_restored", "url": "/log-save/page_restored" },
