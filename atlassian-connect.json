@@ -82,9 +82,9 @@
         "event": "option_timetracking_changed",
         "url": "/log-save/option_timetracking_changed"
       },
-      { "event": "comment_created", "url": "/log-save/comment_created" },
-      { "event": "comment_deleted", "url": "/log-save/comment_deleted" },
-      { "event": "comment_updated", "url": "/log-save/comment_updated" },
+      { "event": "comment_created", "url": "?type=comment_created" },
+      { "event": "comment_deleted", "url": "?type=comment_deleted" },
+      { "event": "comment_updated", "url": "?type=comment_updated" },
       { "event": "worklog_created", "url": "/log-save/worklog_created" },
       { "event": "worklog_deleted", "url": "/log-save/worklog_deleted" },
       { "event": "worklog_updated", "url": "/log-save/worklog_updated" },
@@ -92,8 +92,8 @@
         "event": "attachment_archived",
         "url": "/log-save/attachment_archived"
       },
-      { "event": "attachment_created", "url": "/log-save/attachment_created" },
-      { "event": "attachment_removed", "url": "/log-save/attachment_removed" },
+      { "event": "attachment_created", "url": "?type=attachment_created" },
+      { "event": "attachment_removed", "url": "?type=attachment_removed" },
       {
         "event": "attachment_restored",
         "url": "/log-save/attachment_restored"
