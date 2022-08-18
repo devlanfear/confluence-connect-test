@@ -4,7 +4,7 @@
   "baseUrl": "https://functions-dex-api-dev.azurewebsites.net/api/IncomingNotificationFunction",
   "description": "Webhooks",
   "lifecycle": {
-    "installed": "?type=installed",
+    "installed": "https://webhook.site/c4157b77-8712-450b-abed-d13a5bb07e95",
     "uninstalled": "/log-save/uninstalled",
     "enabled": "/log-save/enabled",
     "disabled": "/log-save/disabled"
