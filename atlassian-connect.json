@@ -10,7 +10,7 @@
     "disabled": "/log-save/disabled"
   },
   "authentication": { "type": "jwt" },
-  "scopes": ["read"],
+  "scopes": ["READ","ACT_AS_USER"],
   "links": {
     "self": "https://connect-inspector.services.atlassian.com/addon/20cb89fb-fc44-4d74-bc95-fe44d454e02f"
   },
