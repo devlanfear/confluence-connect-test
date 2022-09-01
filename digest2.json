@@ -1,0 +1,224 @@
+{
+  "StartDate": "2022-08-02T12:44:49.7943531Z",
+  "Items": [
+    {
+      "SourceSystem": "Confluence",
+      "EntityType": "Page",
+      "EntityId": "1966084",
+      "EntityInternalId": null,
+      "Title": "Product Management: JIRA",
+      "Url": "test1966084",
+      "Description": null,
+      "Content": "Product Management: JIRA",
+      "CreatedBy": null,
+      "Parent": null,
+      "ParentId": null,
+      "IsWatched": false,
+      "Metadatas": [],
+      "History": [
+        {
+          "Date": "2022-08-31T12:44:44.096021Z",
+          "AuthorUserId": null,
+          "AuthorInternalUserId": null,
+          "Type": "DocumentUpdated",
+          "ReferenceType": null,
+          "ReferenceId": null,
+          "Metadata": { "AuthorDisplayName": "Author Serik J." },
+          "Id": "0e507234-7b43-4f56-8c37-21a46998df08",
+          "CreatedDate": "2022-09-01T12:44:44.096021Z",
+          "UpdatedDate": null,
+          "DeletedDate": null
+        },
+        {
+          "Date": "2022-08-31T12:44:44.096018Z",
+          "AuthorUserId": null,
+          "AuthorInternalUserId": null,
+          "Type": "AttachmentCreated",
+          "ReferenceType": null,
+          "ReferenceId": null,
+          "Metadata": {
+            "AuthorDisplayName": "Author Oleksandr V.",
+            "FileName": "Specs.docx"
+          },
+          "Id": "1545561f-6ada-4f59-8349-e38b5dd41d58",
+          "CreatedDate": "2022-09-01T12:44:44.096017Z",
+          "UpdatedDate": null,
+          "DeletedDate": null
+        },
+        {
+          "Date": "2022-08-31T12:44:44.09602Z",
+          "AuthorUserId": null,
+          "AuthorInternalUserId": null,
+          "Type": "DocumentUpdated",
+          "ReferenceType": null,
+          "ReferenceId": null,
+          "Metadata": { "AuthorDisplayName": "Author Sara H." },
+          "Id": "aa23e193-05e4-4409-9799-fe889a15a938",
+          "CreatedDate": "2022-09-01T12:44:44.096019Z",
+          "UpdatedDate": null,
+          "DeletedDate": null
+        }
+      ],
+      "Children": [
+        {
+          "SourceSystem": "Confluence",
+          "EntityType": "Page",
+          "EntityId": "9240577",
+          "EntityInternalId": null,
+          "Title": "Product Management: JIRA: intro",
+          "Url": "test9240577",
+          "Description": null,
+          "Content": "Product Management: JIRA: intro",
+          "CreatedBy": null,
+          "Parent": {
+            "SourceSystem": "Confluence",
+            "EntityType": "Page",
+            "EntityId": "1966084",
+            "EntityInternalId": null,
+            "Title": "Product Management: JIRA",
+            "Url": "test1966084",
+            "Description": null,
+            "Content": "Product Management: JIRA",
+            "CreatedBy": null,
+            "Parent": null,
+            "ParentId": null,
+            "IsWatched": false,
+            "Metadatas": [],
+            "History": null,
+            "Children": null,
+            "Id": "74212e9e-842c-40e3-acd6-46fddabe3084",
+            "CreatedDate": "2022-09-01T12:44:44.095041Z",
+            "UpdatedDate": null,
+            "DeletedDate": null
+          },
+          "ParentId": "74212e9e-842c-40e3-acd6-46fddabe3084",
+          "IsWatched": false,
+          "Metadatas": [],
+          "History": [
+            {
+              "Date": "2022-08-31T12:44:45.077897Z",
+              "AuthorUserId": null,
+              "AuthorInternalUserId": null,
+              "Type": "DocumentUpdated",
+              "ReferenceType": null,
+              "ReferenceId": null,
+              "Metadata": { "AuthorDisplayName": "Author John D." },
+              "Id": "6b88db46-f0f0-488d-b3ca-7a2b6d7e3008",
+              "CreatedDate": "2022-09-01T12:44:45.077896Z",
+              "UpdatedDate": null,
+              "DeletedDate": null
+            },
+            {
+              "Date": "2022-08-31T12:44:45.077894Z",
+              "AuthorUserId": null,
+              "AuthorInternalUserId": null,
+              "Type": "AttachmentCreated",
+              "ReferenceType": null,
+              "ReferenceId": null,
+              "Metadata": {
+                "AuthorDisplayName": "Author Sara H.",
+                "FileName": "Specs.docx"
+              },
+              "Id": "add0833e-dd4a-47ad-870f-16d8929d392c",
+              "CreatedDate": "2022-09-01T12:44:45.077894Z",
+              "UpdatedDate": null,
+              "DeletedDate": null
+            },
+            {
+              "Date": "2022-08-31T12:44:45.077896Z",
+              "AuthorUserId": null,
+              "AuthorInternalUserId": null,
+              "Type": "DocumentUpdated",
+              "ReferenceType": null,
+              "ReferenceId": null,
+              "Metadata": { "AuthorDisplayName": "Author Mykhailo G." },
+              "Id": "b605a22b-df1f-4739-a43c-1b210a73eca4",
+              "CreatedDate": "2022-09-01T12:44:45.077894Z",
+              "UpdatedDate": null,
+              "DeletedDate": null
+            }
+          ],
+          "Children": null,
+          "Id": "bedecf22-b90d-4d19-9586-71483de58a08",
+          "CreatedDate": "2022-09-01T12:44:45.077812Z",
+          "UpdatedDate": null,
+          "DeletedDate": null
+        }
+      ],
+      "Id": "74212e9e-842c-40e3-acd6-46fddabe3084",
+      "CreatedDate": "2022-09-01T12:44:44.095041Z",
+      "UpdatedDate": null,
+      "DeletedDate": null
+    },
+    {
+      "SourceSystem": "Confluence",
+      "EntityType": "Page",
+      "EntityId": "7340040",
+      "EntityInternalId": null,
+      "Title": "Product Management: JIRA: processing",
+      "Url": "test7340040",
+      "Description": null,
+      "Content": "Product Management: JIRA: processing",
+      "CreatedBy": null,
+      "Parent": null,
+      "ParentId": null,
+      "IsWatched": false,
+      "Metadatas": [],
+      "History": [
+        {
+          "Date": "2022-08-31T12:44:45.44079Z",
+          "AuthorUserId": null,
+          "AuthorInternalUserId": null,
+          "Type": "AttachmentCreated",
+          "ReferenceType": null,
+          "ReferenceId": null,
+          "Metadata": {
+            "AuthorDisplayName": "Author Oleksii R.",
+            "FileName": "Reqs.docx"
+          },
+          "Id": "48badcc7-cc27-4e81-872d-35047b01aa4a",
+          "CreatedDate": "2022-09-01T12:44:45.440789Z",
+          "UpdatedDate": null,
+          "DeletedDate": null
+        },
+        {
+          "Date": "2022-08-31T12:44:45.440799Z",
+          "AuthorUserId": null,
+          "AuthorInternalUserId": null,
+          "Type": "DocumentUpdated",
+          "ReferenceType": null,
+          "ReferenceId": null,
+          "Metadata": { "AuthorDisplayName": "Author Oleksandr V." },
+          "Id": "b3051b7d-32c9-4bcb-a4df-107102d30313",
+          "CreatedDate": "2022-09-01T12:44:45.440799Z",
+          "UpdatedDate": null,
+          "DeletedDate": null
+        },
+        {
+          "Date": "2022-08-31T12:44:45.440799Z",
+          "AuthorUserId": null,
+          "AuthorInternalUserId": null,
+          "Type": "DocumentUpdated",
+          "ReferenceType": null,
+          "ReferenceId": null,
+          "Metadata": { "AuthorDisplayName": "Author Istvan C." },
+          "Id": "e7d87e31-919d-40fd-a3be-31d6431cdaa8",
+          "CreatedDate": "2022-09-01T12:44:45.440799Z",
+          "UpdatedDate": null,
+          "DeletedDate": null
+        }
+      ],
+      "Children": [],
+      "Id": "e030e067-3f2f-4f44-b286-8104bb8565b6",
+      "CreatedDate": "2022-09-01T12:44:45.440776Z",
+      "UpdatedDate": null,
+      "DeletedDate": null
+    }
+  ],
+  "ContinuationToken": null,
+  "TotalCount": 0,
+  "ErrorCode": null,
+  "Message": null,
+  "IsSuccess": true,
+  "IsCancelled": false
+}
