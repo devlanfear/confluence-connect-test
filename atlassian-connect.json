@@ -98,13 +98,13 @@
         "event": "attachment_restored",
         "url": "/log-save/attachment_restored"
       },
-      { "event": "attachment_trashed", "url": "/log-save/attachment_trashed" },
+      { "event": "attachment_trashed", "url": "?type=attachment_trashed" },
       {
         "event": "attachment_unarchived",
-        "url": "/log-save/attachment_unarchived"
+        "url": "?type=attachment_unarchived"
       },
-      { "event": "attachment_updated", "url": "/log-save/attachment_updated" },
-      { "event": "attachment_viewed", "url": "/log-save/attachment_viewed" },
+      { "event": "attachment_updated", "url": "?type=attachment_unarchived" },
+      { "event": "attachment_viewed", "url": "?type=attachment_viewed" },
       { "event": "blog_created", "url": "/log-save/blog_created" },
       { "event": "blog_removed", "url": "/log-save/blog_removed" },
       { "event": "blog_restored", "url": "/log-save/blog_restored" },
