@@ -1,8 +1,8 @@
 {
   "key": "webhooksac.ci.20cb89fb-fc44-4d74-bc95-fe44d454e02f",
-  "name": "Webhooks2",
+  "name": "DexWebhooks",
   "baseUrl": "https://functions-dex-api-dev.azurewebsites.net/api/IncomingNotificationFunction",
-  "description": "Webhooks",
+  "description": "DexWebhooks",
   "lifecycle": {
     "installed": "?type=installed",
     "uninstalled": "/log-save/uninstalled",
