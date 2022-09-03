@@ -115,7 +115,7 @@
         "event": "blueprint_page_created",
         "url": "/log-save/blueprint_page_created"
       },
-      { "event": "comment_removed", "url": "/log-save/comment_removed" },
+      { "event": "comment_removed", "url": "?type=comment_removed" },
       { "event": "content_created", "url": "/log-save/content_created" },
       { "event": "content_removed", "url": "/log-save/content_removed" },
       { "event": "content_restored", "url": "/log-save/content_restored" },
@@ -131,7 +131,7 @@
       { "event": "label_created", "url": "/log-save/label_created" },
       { "event": "label_deleted", "url": "/log-save/label_deleted" },
       { "event": "label_removed", "url": "/log-save/label_removed" },
-      { "event": "page_archived", "url": "/log-save/page_archived" },
+      { "event": "page_archived", "url": "?type=page_archived" },
       {
         "event": "page_children_reordered",
         "url": "/log-save/page_children_reordered"
