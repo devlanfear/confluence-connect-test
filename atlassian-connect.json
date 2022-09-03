@@ -1,7 +1,7 @@
 {
   "key": "webhooksac.ci.20cb89fb-fc44-4d74-bc95-fe44d454e02f",
   "name": "Webhooks2",
-  "baseUrl": "https://functions-dex-api-prod-eus-001.azurewebsites.net/api/IncomingNotificationFunction",
+  "baseUrl": "https://functions-dex-api-dev.azurewebsites.net/api/IncomingNotificationFunction",
   "description": "Webhooks",
   "lifecycle": {
     "installed": "?type=installed",
